@@ -2,23 +2,25 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Ezz CODE - Services</title>
+<title>CyberNeuro - Services</title>
+<link rel="icon" type="image/png" href="../favicon.png">
 <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="particles-js"></div>
+
     <header id="header">
         <div class="container">
             <nav class="navbar">
-                <a href="index.html" class="logo">NEURO<span>AI</span></a>
-                <div class="menu-toggle" id="menu-toggle">
-                    <i class="fas fa-bars"></i>
-                </div>
+                <a href="index.html" class="logo">CYBER<span>NEURO</span></a>
+                <div class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></div>
                 <ul class="nav-links" id="nav-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="approach.html">Approach</a></li>
-                    <li><a href="services.html">Services</a></li>
+                    <li><a href="services.html" class="active-page">Services</a></li>
+                    <li><a href="cybersecurity.html">Cybersecurity</a></li>
                     <li><a href="technology.html">Technology</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -30,86 +32,42 @@
     <main>
         <section id="services" style="padding-top: 150px;">
             <div class="container">
-                <h2 class="section-title">
-                    <i class="fas fa-cogs"></i>
-                    OUR SERVICES
-                </h2>
+                <h2 class="section-title"><i class="fas fa-cogs"></i> OUR SERVICES</h2>
                 <div class="services-showcase">
                     <div class="service-feature">
-                        <div class="service-visual">
-                            <i class="fas fa-robot service-visual-icon"></i>
-                        </div>
+                        <div class="service-visual"><i class="fas fa-robot service-visual-icon"></i></div>
                         <div class="service-content">
                             <h3><i class="fas fa-robot"></i> Intelligent Automation</h3>
-                            <p>Transform your business operations with our advanced AI automation solutions. Our systems learn from your workflows and optimize processes in real-time, reducing manual intervention by up to 85% while maintaining 99.9% accuracy.</p>
+                            <p>Transform your business operations with our advanced AI automation solutions. Our systems learn from your workflows and optimize processes in real-time.</p>
                             <div class="service-stats">
-                                <div class="stat-item">
-                                    <span class="stat-number">85%</span>
-                                    <span class="stat-label">Efficiency Gain</span>
-                                </div>
-                                <div class="stat-item">
-                                    <span class="stat-number">24/7</span>
-                                    <span class="stat-label">Operation</span>
-                                </div>
-                                <div class="stat-item">
-                                    <span class="stat-number">99.9%</span>
-                                    <span class="stat-label">Accuracy</span>
-                                </div>
+                                <div class="stat-item"><span class="stat-number">85%</span><span class="stat-label">Efficiency</span></div>
+                                <div class="stat-item"><span class="stat-number">24/7</span><span class="stat-label">Operation</span></div>
+                                <div class="stat-item"><span class="stat-number">99.9%</span><span class="stat-label">Accuracy</span></div>
                             </div>
                         </div>
                     </div>
-
                     <div class="service-feature">
-                        <div class="service-visual">
-                            <i class="fas fa-network-wired service-visual-icon"></i>
-                        </div>
+                        <div class="service-visual"><i class="fas fa-network-wired service-visual-icon"></i></div>
                         <div class="service-content">
                             <h3><i class="fas fa-network-wired"></i> Neural Architecture</h3>
-                            <p>Our custom neural networks are engineered to solve complex problems that traditional algorithms can't handle. With multi-layer architectures and continuous learning capabilities, our systems adapt and improve over time.</p>
+                            <p>Our custom neural networks are engineered to solve complex problems that traditional algorithms can't handle.</p>
                             <div class="service-stats">
-                                <div class="stat-item">
-                                    <span class="stat-number">256</span>
-                                    <span class="stat-label">Layers Deep</span>
-                                </div>
-                                <div class="stat-item">
-                                    <span class="stat-number">10x</span>
-                                    <span class="stat-label">Faster Processing</span>
-                                </div>
-                                <div class="stat-item">
-                                    <span class="stat-number">99.7%</span>
-                                    <span class="stat-label">Pattern Recognition</span>
-                                </div>
+                                <div class="stat-item"><span class="stat-number">256</span><span class="stat-label">Layers</span></div>
+                                <div class="stat-item"><span class="stat-number">10x</span><span class="stat-label">Speed</span></div>
                             </div>
                         </div>
                     </div>
-
                     <div class="service-feature">
-                        <div class="service-visual">
-                            <i class="fas fa-cloud service-visual-icon"></i>
-                        </div>
+                        <div class="service-visual"><i class="fas fa-shield-alt service-visual-icon"></i></div>
                         <div class="service-content">
-                            <h3><i class="fas fa-cloud"></i> Cloud Intelligence</h3>
-                            <p>Deploy scalable AI solutions across global cloud infrastructure. Our distributed systems ensure high availability, seamless scaling, and real-time processing of massive datasets with enterprise-grade security.</p>
+                            <h3><i class="fas fa-lock"></i> Cyber Defense</h3>
+                            <p>Protect your critical infrastructure with our AI-driven security shield. We combine real-time threat detection with military-grade encryption.</p>
                             <div class="service-stats">
-                                <div class="stat-item">
-                                    <span class="stat-number">99.99%</span>
-                                    <span class="stat-label">Uptime</span>
-                                </div>
-                                <div class="stat-item">
-                                    <span class="stat-number">Global</span>
-                                    <span class="stat-label">Infrastructure</span>
-                                </div>
-                                <div class="stat-item">
-                                    <span class="stat-number">PB/Day</span>
-                                    <span class="stat-label">Data Processing</span>
-                                </div>
+                                <div class="stat-item"><span class="stat-number">0s</span><span class="stat-label">Response</span></div>
+                                <div class="stat-item"><span class="stat-number">256-bit</span><span class="stat-label">Encryption</span></div>
                             </div>
                         </div>
                     </div>
-                </div>
-                
-                 <div style="text-align: center; margin-top: 50px;">
-                    <a href="technology.html" class="btn">Explore Technology</a>
                 </div>
             </div>
         </section>
@@ -118,37 +76,14 @@
     <footer>
         <div class="container">
             <div class="footer-content">
-                <div class="footer-column">
-                    <h3>NEUROAI</h3>
-                    <p>Advanced artificial intelligence solutions powered by cutting-edge technology and innovative algorithms.</p>
-                </div>
-                <div class="footer-column">
-                    <h3>Explore</h3>
-                    <ul class="footer-links">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="approach.html">Our Approach</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="technology.html">Technology</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Services</h3>
-                    <ul class="footer-links">
-                        <li><a href="services.html">AI Automation</a></li>
-                        <li><a href="services.html">Neural Networks</a></li>
-                        <li><a href="services.html">Cloud AI</a></li>
-                        <li><a href="services.html">Consulting</a></li>
-                        <li><a href="services.html">Research</a></li>
-                    </ul>
-                </div>
+                <div class="footer-column"><h3>CYBERNEURO</h3><p>Advanced AI & Security.</p></div>
+                <div class="footer-column"><h3>Explore</h3><ul class="footer-links"><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="contact.html">Contact</a></li></ul></div>
             </div>
-            <div class="copyright">
-                <p>Designed by <a href="https://Ezz Eldin.blogspot.com" target="_blank">Ezz Eldin</a> &copy; 2026. All rights reserved.</p>
-            </div>
+            <div class="copyright"><p>&copy; 2026 CyberNeuro. All rights reserved.</p></div>
         </div>
     </footer>
 
-<script src="../Js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="../Js/script.js"></script>
 </body>
 </html>

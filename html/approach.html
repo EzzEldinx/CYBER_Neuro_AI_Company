@@ -2,23 +2,25 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Ezz CODE - Our Approach</title>
+<title>CyberNeuro - Approach</title>
+<link rel="icon" type="image/png" href="../favicon.png">
 <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="particles-js"></div>
+
     <header id="header">
         <div class="container">
             <nav class="navbar">
-                <a href="index.html" class="logo">NEURO<span>AI</span></a>
-                <div class="menu-toggle" id="menu-toggle">
-                    <i class="fas fa-bars"></i>
-                </div>
+                <a href="index.html" class="logo">CYBER<span>NEURO</span></a>
+                <div class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></div>
                 <ul class="nav-links" id="nav-links">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="approach.html">Approach</a></li>
+                    <li><a href="approach.html" class="active-page">Approach</a></li>
                     <li><a href="services.html">Services</a></li>
+                    <li><a href="cybersecurity.html">Cybersecurity</a></li>
                     <li><a href="technology.html">Technology</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -30,41 +32,28 @@
     <main>
         <section id="approach" style="padding-top: 150px;">
             <div class="container">
-                <h2 class="section-title">
-                    <i class="fas fa-sitemap"></i>
-                    OUR APPROACH
-                </h2>
-                
+                <h2 class="section-title"><i class="fas fa-sitemap"></i> OUR APPROACH</h2>
                 <div class="approach-container">
-                   
                     <div class="approach-row">
                         <div class="approach-card large">
                             <h3><i class="fas fa-brain"></i> Neural Network Architecture</h3>
-                            <p>Our proprietary neural networks are designed with multi-layered architectures that mimic human cognitive processes. We implement advanced deep learning algorithms that continuously evolve and adapt to new data patterns.</p>
-                            <p>Each network layer is optimized for specific tasks, creating a synergistic system that outperforms traditional AI models in accuracy and efficiency.</p>
+                            <p>Our proprietary neural networks are designed with multi-layered architectures that mimic human cognitive processes. We implement advanced deep learning algorithms that continuously evolve.</p>
                         </div>
                         <div class="approach-card small">
                             <h3><i class="fas fa-bolt"></i> Real-time Processing</h3>
                             <p>Instant analysis and response capabilities for time-sensitive applications with sub-millisecond latency.</p>
                         </div>
                     </div>
-                    
-                    
                     <div class="approach-row">
                         <div class="approach-card small">
                             <h3><i class="fas fa-shield-alt"></i> Secure Framework</h3>
                             <p>Enterprise-grade security protocols protecting your data and AI models with military-grade encryption.</p>
                         </div>
                         <div class="approach-card large">
-                            <h3><i class="fas fa-chart-line"></i> Predictive Analytics Engine</h3>
-                            <p>Our predictive models utilize advanced statistical algorithms and machine learning techniques to forecast trends with unprecedented accuracy. The system continuously refines its predictions based on real-world outcomes.</p>
-                            <p>We incorporate both structured and unstructured data sources, creating comprehensive predictive insights that drive strategic decision-making across multiple industries.</p>
+                            <h3><i class="fas fa-chart-line"></i> Predictive Analytics</h3>
+                            <p>Our predictive models utilize advanced statistical algorithms and machine learning techniques to forecast trends with unprecedented accuracy.</p>
                         </div>
                     </div>
-                </div>
-                
-                <div style="text-align: center; margin-top: 50px;">
-                    <a href="services.html" class="btn">View Our Services</a>
                 </div>
             </div>
         </section>
@@ -73,37 +62,14 @@
     <footer>
         <div class="container">
             <div class="footer-content">
-                <div class="footer-column">
-                    <h3>NEUROAI</h3>
-                    <p>Advanced artificial intelligence solutions powered by cutting-edge technology and innovative algorithms.</p>
-                </div>
-                <div class="footer-column">
-                    <h3>Explore</h3>
-                    <ul class="footer-links">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="approach.html">Our Approach</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="technology.html">Technology</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Services</h3>
-                    <ul class="footer-links">
-                        <li><a href="services.html">AI Automation</a></li>
-                        <li><a href="services.html">Neural Networks</a></li>
-                        <li><a href="services.html">Cloud AI</a></li>
-                        <li><a href="services.html">Consulting</a></li>
-                        <li><a href="services.html">Research</a></li>
-                    </ul>
-                </div>
+                <div class="footer-column"><h3>CYBERNEURO</h3><p>Advanced artificial intelligence solutions.</p></div>
+                <div class="footer-column"><h3>Explore</h3><ul class="footer-links"><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="contact.html">Contact</a></li></ul></div>
             </div>
-            <div class="copyright">
-                <p>Designed by <a href="https://Ezz Eldin.blogspot.com" target="_blank">Ezz Eldin</a> &copy; 2026. All rights reserved.</p>
-            </div>
+            <div class="copyright"><p>&copy; 2026 CyberNeuro. All rights reserved.</p></div>
         </div>
     </footer>
 
-<script src="../Js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="../Js/script.js"></script>
 </body>
 </html>

@@ -1,13 +1,13 @@
-# NeuroAI - Advanced AI Solutions Website
+# CyberNeuro - Advanced AI Solutions Website
 
 ![Project Status](https://img.shields.io/badge/status-active-success)
 ![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-blue)
 
-**NeuroAI** is a futuristic, responsive front-end website designed for a fictional Artificial Intelligence company. The project showcases advanced CSS animations, a modern dark-mode aesthetic, and a multi-page architecture that provides a seamless user experience.
+**CyberNeuro** is a futuristic, responsive front-end website designed for a fictional Artificial Intelligence company. The project showcases advanced CSS animations, a modern dark-mode aesthetic, and a multi-page architecture that provides a seamless user experience.
 
 ## 📝 Description
 
-This project serves as a digital brochure for "NeuroAI," a company specializing in intelligent automation, neural networks, and cloud intelligence. The design philosophy centers on a high-tech, sleek interface using a dark color palette with neon accents (`#6C63FF`), mimicking the visual language of modern AI interfaces.
+This project serves as a digital brochure for "CyberNeuro," a company specializing in intelligent automation, neural networks, and cloud intelligence. The design philosophy centers on a high-tech, sleek interface using a dark color palette with neon accents (`#6C63FF`), mimicking the visual language of modern AI interfaces.
 
 It features a fully responsive layout that adapts from desktop to mobile screens, an interactive navigation system, and scroll-triggered animations.
 
@@ -31,7 +31,7 @@ It features a fully responsive layout that adapts from desktop to mobile screens
 The project is organized to separate concerns, keeping assets and logic distinct from styles.
 
 ```text
-NeuroAI_Project/
+CyberNeuro_Project/
 │
 ├── style.css           # Main stylesheet (Global styles, variables, responsive rules)
 ├── README.md           # Project documentation
@@ -65,8 +65,8 @@ Icons: FontAwesome 6.4.
 
 Since this is a static website, no backend installation is required.
 
-Method 1: VS Code Live Server (Recommended)
-Open the project folder in Visual Studio Code.
+Method 1: VS codes Live Server (Recommended)
+Open the project folder in Visual Studio codes.
 
 Install the "Live Server" extension.
 
@@ -83,7 +83,7 @@ Double-click index.html to open it in your default web browser.
 
 
 🎨 Color Palette
-Color                     -  Hex Code                 -  Usage
+Color                     -  Hex codes                 -  Usage
 Primary                    #ffffff,                    Main Text
 Secondary,                 #6C63FF,                    Buttons, Accents, Highlights
 Bg Dark,                   #0F0F1A,                    Main Background
@@ -98,4 +98,4 @@ Ezzeldin 💻
 Designed & Developed by ezzeldin
 
 📄 License
-© 2026 NeuroAI. All rights reserved.
+© 2026 CyberNeuro. All rights reserved.

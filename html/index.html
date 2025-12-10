@@ -2,23 +2,27 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Ezz CODE - Home</title>
+<title>CyberNeuro - AI & Security</title>
+<link rel="icon" type="image/png" href="../favicon.png">
 <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="particles-js"></div>
+
     <header id="header">
         <div class="container">
             <nav class="navbar">
-                <a href="index.html" class="logo">NEURO<span>AI</span></a>
+                <a href="index.html" class="logo">CYBER<span>NEURO</span></a>
                 <div class="menu-toggle" id="menu-toggle">
                     <i class="fas fa-bars"></i>
                 </div>
                 <ul class="nav-links" id="nav-links">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html" class="active-page">Home</a></li>
                     <li><a href="approach.html">Approach</a></li>
                     <li><a href="services.html">Services</a></li>
+                    <li><a href="cybersecurity.html">Cybersecurity</a></li>
                     <li><a href="technology.html">Technology</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -33,14 +37,89 @@
                 <div class="rectangle"></div>
                 <div class="rectangle"></div>
                 <div class="rectangle"></div>
-                <div class="rectangle"></div>
-                <div class="rectangle"></div>
             </div>
-            <div class="container">
+            
+            <div class="container hero-grid">
                 <div class="hero-content">
-                    <h1>ADVANCED AI SOLUTIONS</h1>
-                    <p>We create intelligent systems that enhance human capabilities, not replace them. Our approach combines cutting-edge technology with deep understanding of human needs.</p>
-                    <a href="contact.html" class="btn">Start Your Journey</a>
+                    <div class="badge-container">
+                        <span class="status-badge"><i class="fas fa-circle-notch fa-spin"></i> SYSTEM ONLINE v2.0</span>
+                    </div>
+                    <h1><span class="typewriter"></span><span class="cursor-blink">|</span></h1>
+                    <p>The convergence of advanced Artificial Intelligence and military-grade Cybersecurity. We build intelligent systems that protect themselves.</p>
+                    <div class="cta-group">
+                        <a href="contact.html" class="btn btn-primary">Start Project <i class="fas fa-arrow-right"></i></a>
+                        <a href="cybersecurity.html" class="btn btn-outline">View Security</a>
+                    </div>
+                </div>
+        
+                <div class="hero-visual">
+                    <div class="neural-core">
+                        <div class="core-ring ring-1"></div>
+                        <div class="core-ring ring-2"></div>
+                        <div class="core-ring ring-3"></div>
+                        <div class="core-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="core-glow"></div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="hero-stats">
+                <div class="stat-box">
+                    <span class="stat-value">99.9%</span>
+                    <span class="stat-label">System Uptime</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-box">
+                    <span class="stat-value">500TB+</span>
+                    <span class="stat-label">Data Secured</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-box">
+                    <span class="stat-value">0ms</span>
+                    <span class="stat-label">Breach Latency</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="cyber-preview" style="background: linear-gradient(180deg, var(--bg-dark) 0%, var(--bg-card) 100%);">
+            <div class="container">
+                <h2 class="section-title"><i class="fas fa-shield-alt"></i> CYBER DEFENSE</h2>
+                <div class="approach-container">
+                    <div class="approach-row">
+                        <div class="approach-card small" style="display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-lock" style="font-size: 5rem; color: var(--secondary-color); text-shadow: 0 0 20px rgba(108, 99, 255, 0.4);"></i>
+                        </div>
+                        <div class="approach-card large">
+                            <h3><i class="fas fa-user-shield"></i> Active Threat Protection</h3>
+                            <p>Don't just react to attacks—anticipate them. Our AI security layer analyzes network traffic in real-time, identifying threats 10x faster than traditional firewalls.</p>
+                            <div style="margin-top: 20px; display: flex; gap: 20px; flex-wrap: wrap;">
+                                <span><i class="fas fa-check" style="color: var(--secondary-color);"></i> Zero-Day Protection</span>
+                                <span><i class="fas fa-check" style="color: var(--secondary-color);"></i> 256-bit Encryption</span>
+                            </div>
+                            <br>
+                            <a href="cybersecurity.html" class="btn">Explore Security Solutions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-preview">
+            <div class="container">
+                <h2 class="section-title"><i class="fas fa-microchip"></i> TECHNOLOGY</h2>
+                <div class="about-content">
+                    <div class="about-text visible">
+                        <h3>Next-Gen Infrastructure</h3>
+                        <p>We utilize specialized hardware accelerators and distributed computing architectures to deliver unprecedented processing power for both AI training and security monitoring.</p>
+                        <a href="technology.html" class="btn">View Tech Stack</a>
+                    </div>
+                    <div class="about-image visible">
+                        <div style="background: linear-gradient(135deg, var(--secondary-color), var(--accent-color)); height: 300px; border-radius: 12px; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden;">
+                            <i class="fas fa-server" style="font-size: 80px; color: white;"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -50,36 +129,34 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-column">
-                    <h3>NEUROAI</h3>
-                    <p>Advanced artificial intelligence solutions powered by cutting-edge technology and innovative algorithms.</p>
+                    <h3>CYBERNEURO</h3>
+                    <p>The world's first AI-integrated cybersecurity platform.</p>
                 </div>
                 <div class="footer-column">
                     <h3>Explore</h3>
                     <ul class="footer-links">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="approach.html">Our Approach</a></li>
                         <li><a href="services.html">Services</a></li>
-                        <li><a href="technology.html">Technology</a></li>
+                        <li><a href="cybersecurity.html">Cybersecurity</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h3>Services</h3>
+                    <h3>Solutions</h3>
                     <ul class="footer-links">
-                        <li><a href="services.html">AI Automation</a></li>
-                        <li><a href="services.html">Neural Networks</a></li>
-                        <li><a href="services.html">Cloud AI</a></li>
-                        <li><a href="services.html">Consulting</a></li>
-                        <li><a href="services.html">Research</a></li>
+                        <li><a href="services.html">Intelligent Automation</a></li>
+                        <li><a href="cybersecurity.html">Threat Detection</a></li>
+                        <li><a href="technology.html">Neural Networks</a></li>
                     </ul>
                 </div>
             </div>
             <div class="copyright">
-                <p>Designed by <a href="https://Ezzcodoo.blogspot.com" target="_blank">Ezz Eldin</a> &copy; 2026. All rights reserved.</p>
+                <p>Designed by <a href="https://EzzEldincodes.blogspot.com" target="_blank">CyberNeuro</a> &copy; 2026. All rights reserved.</p>           
             </div>
         </div>
     </footer>
 
-<script src="../Js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="../Js/script.js"></script>
 </body>
 </html>
