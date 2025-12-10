@@ -941,3 +941,71 @@ footer {
         text-align: center;
     }
 }
+
+
+/* --- [NEW] Contact Section Grid Layout --- */
+
+/* Select the specific list inside the contact section */
+.footer-contact .footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Creates two equal columns */
+    gap: 20px; /* Adds space between items */
+    margin-top: 15px;
+}
+
+/* Ensure individual items align nicely */
+.footer-contact .footer-links li {
+    margin-bottom: 0; /* Remove default margin since we use gap */
+    display: flex;
+    align-items: center; /* Vertically align icon and text */
+    gap: 10px; /* Space between icon and text */
+    font-size: 0.95rem;
+}
+
+/* Optional: Make icons stand out */
+.footer-contact .footer-links li i {
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    width: 20px; /* Fixed width for alignment */
+    text-align: center;
+}
+
+/* Mobile responsiveness: Stack them back to 1 column on very small screens */
+@media (max-width: 480px) {
+    .footer-contact .footer-links {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* --- [NEW] Social Icons 2x2 Grid Fix --- */
+.social-links {
+    display: grid !important;
+    grid-template-columns: 45px 45px; /* Exact width for 2 columns */
+    grid-template-rows: 45px 45px;    /* Exact height for 2 rows */
+    gap: 15px;                        /* Space between bubbles */
+    margin-top: 25px;
+    justify-content: start;
+}
+
+/* Style the bubbles */
+.social-links a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    background: var(--secondary-color);
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 15px var(--secondary-color);
+    transform: translateY(-3px);
+}
+ 
